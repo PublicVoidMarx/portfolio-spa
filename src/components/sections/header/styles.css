@@ -1,0 +1,42 @@
+.intro-container {
+  grid-area: header;
+  background-repeat: no-repeat;
+  background-image: url('../../../../public/pngwing.com.png');
+  background-size: contain;
+  background-position: right;
+  height: 100vh;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.title{
+  position: relative;
+  left: 5%;
+  top: 10%;
+  width: 400px;
+  font-size: 80px;
+  color: #425b4b;
+}
+
+.ribbon {
+  display: flex;
+  justify-content: space-between;
+  top: 45%;
+  position: relative;
+}
+
+.ribbon-right {
+  width: 100px;
+  height: 90px;
+  background: #ffba06;
+  font-size: 80px;
+}
+
+.ribbon-left {
+  background: #ffba06;
+  width: 250px;
+  height: 90px;
+  font-size: 70px;
+  padding-left: 5%;
+}

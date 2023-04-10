@@ -1,0 +1,15 @@
+.about-container {
+  background-color: #aba9a4;
+  height: 30vh;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  position: relative;
+}
+
+.rightsReserved{
+  position: absolute;
+  bottom: 10px;
+
+  font-weight: bold;
+}

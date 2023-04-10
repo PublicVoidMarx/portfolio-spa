@@ -1,0 +1,34 @@
+.profile-container {
+  background-color: #e95d05;
+  height: 100vh;
+  display: flex;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.picture {
+  background-image: url("/Users/lucianocriscuolo/Documents/portfolio-spa/public/profile-picture.jpeg");
+  background-attachment: fixed;
+  display: inline-block;
+  width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #c1945c;
+  padding: 150px;
+}
+
+.description .titleDesc{
+  font-size: 160px;
+  font-weight: bold;
+}
+
+.description .text{
+  font-size: 30px;
+}

@@ -1,0 +1,13 @@
+.portfolioContainer {
+  background-color: #306046;
+  height: 100vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
